@@ -1,0 +1,34 @@
+REPL
+read eval print loop
+It's just show how node works as same way js works in browse
+if we write multiline code it will itself know about it and allow us to write it
+_  --> for last instruction
+.editor ---> Works as a editor like vs code
+tab tab--->will give list of all functionality of nodejs
+suppose you write 'fs' in cmd we will get all function of filesystem.
+
+
+****  Explore Module Wrapper ****
+In the node coding we generally use require,modules
+etc keyword. All these keywords arrives from global scope
+The code written by user is just wrapped into function who has parameters like
+1-->exports
+1-->require
+1-->module
+1-->__filename
+1-->__dirname
+
+api.openweathermap.org/data/2.5/weather?q=Surat&appid=49880dd522b603b7573af5dfc0664d5b
+49880dd522b603b7573af5dfc0664d5b
+
+
+Github
+Go to folder to be uploaded on Github
+1) Write git status if error then firts initialize with git init
+2)make file name .gitignore and add name of all files not to be added inside the gi repo
+It's just a text file
+3) add by using git add .
+These . will add all the files under project and you can also add individually
+4) Connect online by adding
+git remote add origin https://github.com/dhruvil-shah/Weather.git
+from git after creating new repo
